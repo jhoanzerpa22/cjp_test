@@ -16,7 +16,7 @@ php artisan storage:link
 
 php artisan serve
 
-##Rutas
+## Rutas
 
 Categorias:
 
@@ -58,7 +58,7 @@ Objeto enviado:
 	"marca_id": 1
 }
 
-##Nota
+## Nota
 
 Antes de generar las migraciones se debe tener creado y configurado el archivo .env para su conexión con la bd.
 De igual manera en la carpeta raiz se podra encontrar la bd "cjp.sql" con datos de prueba y una colección Postman para identificar las rutas.
