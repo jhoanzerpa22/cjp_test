@@ -1,0 +1,231 @@
+{
+	"id": "9c21ebf7-0d33-b464-53b3-e817ad6f5861",
+	"name": "Cjp Test",
+	"description": "# Introduction\nRutas de la api\n\n# Overview\nThings that the developers should know about\n\n# Authentication\nWhat is the preferred way of using the API?\n\n# Error Codes\nWhat errors and status codes can a user expect?\n\n# Rate limit\nIs there a limit to the number of requests an user can send?",
+	"order": [
+		"6e7dd08b-1478-e40e-a410-41d6be679f35",
+		"13ee319a-bbbd-c71d-9b7d-715db3ed521f",
+		"0c6068a6-51ff-cdeb-01db-eaa5d130f509",
+		"5e300b7b-b3c3-43ef-d003-ad6d13212b5e",
+		"970b7ea8-a767-9756-9108-42caa4d1bfd0",
+		"591f8aa9-5f3a-d8f6-293d-ef3372d68fe1",
+		"369214d3-884f-e565-3c50-20f3f7fe3044",
+		"ff1624da-fcbe-59f1-3cf2-2a13e6fe6e73",
+		"446968a3-1c98-075d-080c-a2dd6dd35c34",
+		"2a8d0388-2923-79af-dfe8-33214dfca124",
+		"40011e93-725d-67b6-bd3d-d0129db13116"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1581877507929,
+	"owner": "4068540",
+	"public": false,
+	"requests": [
+		{
+			"id": "0c6068a6-51ff-cdeb-01db-eaa5d130f509",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost/cjp_api/public/api/v1/categorias",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "nombre",
+					"value": "Categoria2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1581877809656,
+			"name": "localhost/cjp_api/public/api/v1/categorias",
+			"collectionId": "9c21ebf7-0d33-b464-53b3-e817ad6f5861"
+		},
+		{
+			"id": "13ee319a-bbbd-c71d-9b7d-715db3ed521f",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost/cjp_api/public/api/v1/productos",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1581877785997,
+			"name": "localhost/cjp_api/public/api/v1/productos",
+			"collectionId": "9c21ebf7-0d33-b464-53b3-e817ad6f5861"
+		},
+		{
+			"id": "2a8d0388-2923-79af-dfe8-33214dfca124",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost/cjp_api/public/api/v1/marcas",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "nombre",
+					"value": "Marca2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1581877604069,
+			"name": "localhost/cjp_api/public/api/v1/marcas",
+			"collectionId": "9c21ebf7-0d33-b464-53b3-e817ad6f5861"
+		},
+		{
+			"id": "369214d3-884f-e565-3c50-20f3f7fe3044",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost/cjp_api/public/api/v1/productos/categoria/alimentos",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1581877926381,
+			"name": "localhost/cjp_api/public/api/v1/productos/categoria/alimentos",
+			"collectionId": "9c21ebf7-0d33-b464-53b3-e817ad6f5861"
+		},
+		{
+			"id": "40011e93-725d-67b6-bd3d-d0129db13116",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost/cjp_api/public/api/v1/productos",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "nombre",
+					"value": "Producto2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "precio",
+					"value": "100",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "categoria_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "marca_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1581877986425,
+			"name": "localhost/cjp_api/public/api/v1/productos",
+			"collectionId": "9c21ebf7-0d33-b464-53b3-e817ad6f5861"
+		},
+		{
+			"id": "446968a3-1c98-075d-080c-a2dd6dd35c34",
+			"url": "localhost/cjp_api/public/api/v1/marcas/1",
+			"method": "GET",
+			"collectionId": "9c21ebf7-0d33-b464-53b3-e817ad6f5861",
+			"name": "localhost/cjp_api/public/api/v1/marcas/1"
+		},
+		{
+			"id": "591f8aa9-5f3a-d8f6-293d-ef3372d68fe1",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost/cjp_api/public/api/v1/productos/marca/samsung",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1581877900317,
+			"name": "localhost/cjp_api/public/api/v1/productos/marca/samsung",
+			"collectionId": "9c21ebf7-0d33-b464-53b3-e817ad6f5861"
+		},
+		{
+			"id": "5e300b7b-b3c3-43ef-d003-ad6d13212b5e",
+			"url": "localhost/cjp_api/public/api/v1/categorias/1",
+			"method": "GET",
+			"collectionId": "9c21ebf7-0d33-b464-53b3-e817ad6f5861",
+			"name": "localhost/cjp_api/public/api/v1/categorias/1"
+		},
+		{
+			"id": "6e7dd08b-1478-e40e-a410-41d6be679f35",
+			"url": "localhost/cjp_api/public/api/v1/categorias",
+			"method": "GET",
+			"collectionId": "9c21ebf7-0d33-b464-53b3-e817ad6f5861",
+			"name": "localhost/cjp_api/public/api/v1/categorias"
+		},
+		{
+			"id": "970b7ea8-a767-9756-9108-42caa4d1bfd0",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost/cjp_api/public/api/v1/productos/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1581877769643,
+			"name": "localhost/cjp_api/public/api/v1/productos/1",
+			"collectionId": "9c21ebf7-0d33-b464-53b3-e817ad6f5861"
+		},
+		{
+			"id": "ff1624da-fcbe-59f1-3cf2-2a13e6fe6e73",
+			"url": "localhost/cjp_api/public/api/v1/marcas",
+			"method": "GET",
+			"collectionId": "9c21ebf7-0d33-b464-53b3-e817ad6f5861",
+			"name": "localhost/cjp_api/public/api/v1/marcas"
+		}
+	]
+}
