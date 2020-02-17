@@ -164,7 +164,6 @@ return [
         */
         OwenIt\Auditing\AuditingServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
-        Krlove\EloquentModelGenerator\Provider\GeneratorServiceProvider::class,
         App\Providers\HelperServiceProvider::class,
     ],
 
